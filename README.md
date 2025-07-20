@@ -39,5 +39,7 @@ The elevator FSM includes states such as:
 <img width="1457" height="316" alt="Image" src="https://github.com/user-attachments/assets/8c90cad3-a45a-49e1-a346-ddb6958d6d24" />
 <img width="1459" height="233" alt="Image" src="https://github.com/user-attachments/assets/37a242b8-dcc2-4135-80c4-fd4d1db70b5f" />
 <img width="1460" height="239" alt="Image" src="https://github.com/user-attachments/assets/3cc5fc35-c475-4030-93e0-32b0a1f8a56d" />
+
+
 ## Acknowledgement
 This project was a learning initiative on Digital System Design, FSM-based hardware, and Verilog HDL simulations.
