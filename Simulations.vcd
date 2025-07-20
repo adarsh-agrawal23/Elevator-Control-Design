@@ -1,0 +1,227 @@
+$date
+	Sun Jul 20 05:53:05 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module elevator_fsm_tb $end
+$var wire 2 ! motor_dir [1:0] $end
+$var wire 1 " door $end
+$var wire 1 # current_floor $end
+$var reg 1 $ clk $end
+$var reg 3 % req_floor [2:0] $end
+$var reg 1 & reset $end
+$var reg 1 ' timer_expired $end
+$scope module dut $end
+$var wire 1 $ clk $end
+$var wire 1 ( floor_arrival $end
+$var wire 3 ) req_floor [2:0] $end
+$var wire 1 & reset $end
+$var wire 1 ' timer_expired $end
+$var parameter 3 * CHECK $end
+$var parameter 3 + DOOR_OPEN $end
+$var parameter 3 , IDLE $end
+$var parameter 3 - MOVE_DOWN $end
+$var parameter 3 . MOVE_UP $end
+$var parameter 3 / STOP $end
+$var parameter 3 0 WAIT $end
+$var reg 2 1 current_floor [1:0] $end
+$var reg 1 " door $end
+$var reg 2 2 motor_dir [1:0] $end
+$var reg 3 3 next_state [2:0] $end
+$var reg 3 4 prev_state [2:0] $end
+$var reg 1 5 request_above $end
+$var reg 1 6 request_below $end
+$var reg 3 7 state [2:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b101 0
+b11 /
+b1 .
+b10 -
+b0 ,
+b100 +
+b110 *
+$end
+#0
+$dumpvars
+b0 7
+06
+05
+b0 4
+b0 3
+b0 2
+b0 1
+b0 )
+z(
+0'
+1&
+b0 %
+0$
+0#
+0"
+b0 !
+$end
+#5000
+1$
+#10000
+0$
+0&
+#15000
+1$
+#20000
+b1 !
+b1 2
+b1 3
+15
+0$
+b100 %
+b100 )
+#25000
+b0 !
+b0 2
+b0x1 3
+b1 7
+1$
+#30000
+0$
+#35000
+b0x1 7
+b1 4
+1$
+#40000
+0$
+#45000
+b0x1 4
+1$
+#50000
+0$
+#55000
+1$
+#60000
+0$
+#65000
+1$
+#70000
+0$
+#75000
+1$
+#80000
+0$
+1'
+#85000
+1$
+#90000
+0$
+0'
+#95000
+1$
+#100000
+0$
+#105000
+1$
+#110000
+0$
+1'
+#115000
+1$
+#120000
+05
+0$
+b0 %
+b0 )
+0'
+#125000
+1$
+#130000
+0$
+#135000
+1$
+#140000
+0$
+#145000
+1$
+#150000
+0$
+#155000
+1$
+#160000
+0$
+#165000
+1$
+#170000
+0$
+b1 %
+b1 )
+#175000
+1$
+#180000
+0$
+#185000
+1$
+#190000
+0$
+#195000
+1$
+#200000
+0$
+#205000
+1$
+#210000
+0$
+#215000
+1$
+#220000
+0$
+#225000
+1$
+#230000
+0$
+1'
+#235000
+1$
+#240000
+0$
+0'
+#245000
+1$
+#250000
+0$
+#255000
+1$
+#260000
+0$
+1'
+#265000
+1$
+#270000
+0$
+b0 %
+b0 )
+0'
+#275000
+1$
+#280000
+0$
+#285000
+1$
+#290000
+0$
+#295000
+1$
+#300000
+0$
+#305000
+1$
+#310000
+0$
+#315000
+1$
+#320000
+0$
