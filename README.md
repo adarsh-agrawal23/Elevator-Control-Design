@@ -9,14 +9,13 @@ This project implements a finite state machine (FSM) based **Elevator Control Sy
 ##  Features
 
 - Supports customizable number of floors
-- FSM-based control logic for:
-  - Floor selection
-  - Movement direction (up/down)
-  - Door opening/closing
-  - Idle state when no requests
-- Priority handling for current direction requests
-- Verilog testbench for validation
-- Simulated and verified with waveform analysis
+- FSM-based control logic with inputs and outputs as:
+  - Floor selection from both inside and outside elevator.
+  - Movement direction (up/down) using motor control.
+  - Door opening/closing using door control.
+  - Going to **Idle** when no request.
+- Verilog testbench for validation.
+- Simulated results and detailed waveform analysis for verification.
 
 ---
 
@@ -28,6 +27,7 @@ The elevator FSM includes states such as:
 - **Moving Up / Moving Down**: Elevator in motion
 - **Door Open / Close**: Handles entry/exit
 - **Stop at Floor**: Temporarily stops to serve a request
+- **Wait**: Waits for the timer to go high to ensure a finite amount of time for door open
 - **Check**: Further checks if any other floor is been requested
 
 ### FSM State Diagram
