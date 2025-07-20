@@ -26,7 +26,7 @@ module elevator_fsm_tb;
     );
 
     
-    always #5 clk = ~clk;  // 10 ns clock period
+    always #5 clk = ~clk;  
 
     initial begin
       $display("Time\tReset\tReq\tDir\tDoor\tCurrent");
